@@ -16,8 +16,12 @@ To train a super-net for OATS or OATS-SOL, first set the "width_mult_list" in "s
 
 ```train
 python train_OATS_SOL.py --method=OATS --dataset cifar10 --epochs 100
+```
+or
+```train
 python train_OATS_SOL.py --method=OATS_SOL --dataset cifar10 --epochs 100
 ```
+
 Following datasets can be used in the OATS_SOL commands:
 - cifar10
 - svhn
@@ -27,8 +31,12 @@ Similarly, to train a super-net for SNN or SNN-SOL, set the "width_mult_list" in
 
 ```train
 python train_SNN_SOL.py --method=SNN --model ResNet_34 --epochs 100
+```
+or
+```train
 python train_SNN_SOL.py --method=SNN_SOL --model ResNet_34 --epochs 100
 ```
+
 Following models can be used in the SNN_SOL based commands:
 - ResNet_34
 - WideResNet_16_8
