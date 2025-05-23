@@ -4,7 +4,7 @@ This repository provides the official code used in the paper: **SOLAR: Switchabl
 
 ## Requirements
 
-Install the pre-requisite files through following command:
+Install the pre-requisites through following command:
 
 ```setup
 pip install -r requirements.txt
