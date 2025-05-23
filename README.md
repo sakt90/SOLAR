@@ -49,3 +49,14 @@ To evaluate the trained model(s) use the following Jupyter Notebook Files for co
 - test_OATS_SOL (for OATS or OATS-SOL)
 - test_SNN_SOL (for SNN or SNN-SOL)
 
+## Reference
+
+We have adapted code from OAT: https://github.com/VITA-Group/Once-for-All-Adversarial-Training
+```
+@inproceedings{wang2020onceforall,
+  title={Once-for-All Adversarial Training: In-Situ Tradeoff between Robustness and Accuracy for Free},
+  author={Wang, Haotao and Chen, Tianlong and Gui, Shupeng and Hu, Ting-Kuei and Liu, Ji and Wang, Zhangyang},
+  booktitle={NeurIPS},
+  year={2020}
+}
+```
