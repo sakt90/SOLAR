@@ -54,7 +54,6 @@ The fully trained super-net backbones packed with 4, 8, 16, and 32 sub-nets usin
 
 
 ## References
-Code has been adapted from following repositories:
 - OAT: https://github.com/VITA-Group/Once-for-All-Adversarial-Training
 - SNNs: https://github.com/JiahuiYu/slimmable_networks
 ```
